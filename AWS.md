@@ -351,4 +351,152 @@ Its goal is to accelerate successful cloud adoption.
 
 ---
 
+#  Module 2 - Cloud Economics and Billing
+
+## Section 1: Fundamentals of Pricing
+
+### Three Fundamental Cost Drivers with AWS
+
+1. **Compute** – Charged by usage time, varies by instance
+2. **Storage** – Charged per GB
+3. **Data Transfer** – Outbound transfers are aggregated and charged per GB.
+
+   * Inbound transfers and transfers between services in the same AWS Region are typically free.
+
+---
+
+### Paying for AWS
+
+* **Pay for what you use**
+* **Reserved Instances (save up to 75% vs On-Demand):**
+
+  * All Upfront (AURI) → Largest discount
+  * Partial Upfront (PURI) → Medium discount
+  * No Upfront (NURI) → Smallest discount
+* **Scale and save**: Tiered pricing for services like S3, EBS, EFS
+* **Save as AWS grows**
+* **Custom Pricing**: Available for high-volume projects with unique requirements
+
+---
+
+### Free Services (with potential charges when combined with others)
+
+* Amazon VPC
+* Elastic Beanstalk
+* Auto Scaling
+* AWS CloudFormation
+* AWS Identity and Access Management (IAM)
+
+---
+
+## Section 2: Total Cost of Ownership (TCO)
+
+**Definition:**
+A financial estimate to identify direct and indirect costs of a system.
+Used to compare costs of on-premises environments vs AWS and to build business cases for cloud migration.
+
+---
+
+### TCO Considerations
+
+1. **Server Costs**
+
+   * Hardware: servers, racks, PDUs, TOR switches, maintenance
+   * Software: OS, virtualization licenses, maintenance
+   * Facilities: space, power, cooling
+
+2. **Storage Costs**
+
+   * Hardware: storage disks, SAN/FC switches
+   * Storage administration costs
+   * Facilities: space, power, cooling
+
+3. **Network Costs**
+
+   * Hardware: LAN switches, load balancers, bandwidth
+   * Network administration costs
+   * Facilities: space, power, cooling
+
+4. **IT Labor Costs**
+
+   * Server administration costs
+
+---
+
+## Section 3: Billing
+
+### AWS Organizations
+
+**Definition:**
+A management service that lets you consolidate multiple AWS accounts into an organization with central control.
+
+**Key Features:**
+
+* Policy-based account management
+* Group-based account management
+* APIs for automation
+* Consolidated billing
+
+**Security:**
+
+* Control access with IAM policies
+* Service Control Policies (SCPs) for granular restrictions
+
+**Setup Steps:**
+
+1. Create organization
+2. Create organizational units
+3. Create SCPs
+4. Test restrictions
+
+**Access Methods:**
+
+* AWS Management Console
+* AWS CLI
+* SDKs
+* HTTPS Query API
+
+---
+
+### AWS Billing and Cost Management
+
+**Definition:**
+The service to pay AWS bills, monitor usage, and analyze/control costs.
+
+**Tools:**
+
+* **AWS Budgets** – Set custom budgets and get alerts
+* **AWS Cost & Usage Report** – Detailed usage and estimated charges
+* **AWS Cost Explorer** – Visualize and analyze costs over time
+
+---
+
+## Section 4: Technical Support
+
+**AWS Support:**
+Provides tools and expertise to ensure success and operational health.
+All plans include 24/7 customer service, documentation, whitepapers, and support forums.
+
+**Key Features:**
+
+* Proactive guidance: Technical Account Manager (TAM)
+* Best practices: AWS Trusted Advisor
+* Account assistance: AWS Support Concierge
+
+---
+
+### Support Plans
+
+* **Basic Support** – Self-service, health dashboard, FAQs, forums
+* **Developer Support** – For early development
+* **Business Support** – For production workloads
+* **Enterprise Support** – For mission-critical workloads
+
+**Response Times:**
+
+* Basic: No case support
+* Others: From 24 hours to 15 minutes (based on severity & plan)
+
+---
+
 
