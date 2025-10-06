@@ -85,7 +85,7 @@
 
 ---
 
-## 1️ What Are Web Services?
+## 1 What Are Web Services?
 
 * **Definition:**
   A web service is any piece of software that makes itself available over the internet and communicates using standardized formats such as **XML (Extensible Markup Language)** or **JSON (JavaScript Object Notation)** for the request and response in an **API (Application Programming Interface)** interaction.
@@ -99,7 +99,7 @@ Web services enable different applications to talk to each other, regardless of 
 
 ---
 
-## 2️ What Is AWS (Amazon Web Services)?
+## 2 What Is AWS (Amazon Web Services)?
 
 * **Definition:**
   AWS is a **secure cloud platform** that offers a wide range of global, cloud-based products and services.
@@ -112,7 +112,7 @@ Web services enable different applications to talk to each other, regardless of 
 
 ---
 
-## 3️ Categories of AWS Services
+## 3 Categories of AWS Services
 
 AWS groups its offerings into many service categories, including:
 
@@ -142,7 +142,7 @@ AWS groups its offerings into many service categories, including:
 
 ---
 
-## 4️ Choosing an AWS Service
+## 4 Choosing an AWS Service
 
 * The right service depends on your **business goals** and **technical requirements**.
 * Examples of compute & deployment options:
@@ -159,7 +159,7 @@ AWS groups its offerings into many service categories, including:
 
 ---
 
-## 5️ AWS Services Covered in This Course
+## 5 AWS Services Covered in This Course
 
 ### Compute
 
@@ -221,7 +221,7 @@ AWS groups its offerings into many service categories, including:
 
 ---
 
-## 6️ Three Ways to Interact with AWS
+## 6 Three Ways to Interact with AWS
 
 | Method                                   | Description                                                                     |
 | ---------------------------------------- | ------------------------------------------------------------------------------- |
@@ -505,7 +505,7 @@ All plans include 24/7 customer service, documentation, whitepapers, and support
 
 - Identify the difference between AWS Regions, Availability Zones, and edge locations
 - Identify AWS service and service categories
-- 
+  
 <br/>
 
 ## Section 1: AWS Global Infrastructure
@@ -999,7 +999,7 @@ The topology of a Transit Gateway is a hub and spoke which reduces the number of
 ## Section 5: Amazon Route 53
 
 - A highly available and scalable Domain Name System (DNS) web service
-- Used to route end users to internet applications by translating names (like www.example.com) into numeric IP addresses (like 192.0.2.1) that computers use to connect to each other
+- Used to route end users to internet applications by translating names into numeric IP addresses (like 192.0.2.1) that computers use to connect to each other
 - Fully compliant with IPv4 and IPv6
 - Connects user requests to infrastructure running in AWS and also outside of AWS
 - Is used to check the health of your resources
