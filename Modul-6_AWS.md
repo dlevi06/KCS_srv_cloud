@@ -1,6 +1,3 @@
-Here is the completely rewritten and formatted English version of your notes in Markdown format. I have corrected typos, structured the text for better readability, and converted implied visual information into descriptive text as requested.
-
-```markdown
 # AWS Module 6 - Compute
 
 **Original Author:** lemasyma
