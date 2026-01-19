@@ -1,6 +1,4 @@
----
-
-# Module 5 - Networking and Content Delivery
+#Module 5 - Networking and Content Delivery
 
 ## Objectives / Topics
 
